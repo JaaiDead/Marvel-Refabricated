@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "marvel:item/deadpool_x_force_leggings"
+  }
+}

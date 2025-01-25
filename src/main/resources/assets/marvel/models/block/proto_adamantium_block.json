@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "marvel:block/proto_adamantium_block"
+  }
+}

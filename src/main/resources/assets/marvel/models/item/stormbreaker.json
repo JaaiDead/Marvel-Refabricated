@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "textures": {
+    "particle": "marvel:entity/stormbreaker"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [0, 90, 0],
+      "translation": [6.25, 8.5, -5],
+      "scale": [0.8, 0.8, 0.8]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [0, -90, 0],
+      "translation": [-6.5, 8.5, -5],
+      "scale": [0.8, 0.8, 0.8]
+    },
+    "firstperson_righthand": {
+      "rotation": [-9, 102, 0],
+      "translation": [7.5, 4, -12.5]
+    },
+    "firstperson_lefthand": {
+      "rotation": [-9, -102, 0],
+      "translation": [-2.75, 4, -12.5]
+    },
+    "ground": {
+      "rotation": [90, 0, 0],
+      "translation": [8, -9.75, 8]
+    },
+    "gui": {
+      "rotation": [21, 180, 39],
+      "translation": [-1.25, 6.75, 0],
+      "scale": [0.6, 0.6, 0.6]
+    },
+    "head": {
+      "rotation": [20, -90, 0],
+      "translation": [-7.75, 2, -6.25]
+    },
+    "fixed": {
+      "rotation": [0, 0, 39],
+      "translation": [2, 6.75, 6.25],
+      "scale": [0.73, 0.73, 0.73]
+    },
+    "marvel:flying_righthand": {
+      "rotation": [-60, 90, 0],
+      "translation": [6.25, -2, -11.25],
+      "scale": [0.8, 0.8, 0.8]
+    },
+    "marvel:flying_lefthand": {
+      "rotation": [-60, -90, 0],
+      "translation": [-6.25, -2, -11.25],
+      "scale": [0.8, 0.8, 0.8]
+    }
+  }
+}

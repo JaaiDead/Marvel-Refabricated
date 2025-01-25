@@ -1,0 +1,14 @@
+{
+  "parent": "marvel:item/suit_power",
+  "textures": {
+    "layer0": "marvel:item/centurion_blade"
+  },
+  "overrides": [
+    {
+      "model": "marvel:item/centurion_blade_mark_30",
+      "predicate": {
+        "marvel:iron_man_mark_30": 1
+      }
+    }
+  ]
+}

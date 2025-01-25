@@ -1,0 +1,12 @@
+{
+    "sources": [
+        {
+            "type": "single",
+            "resource": "marvel:entity/mjolnir"
+        },
+        {
+            "type": "single",
+            "resource": "marvel:entity/stormbreaker"
+        }
+    ]
+}

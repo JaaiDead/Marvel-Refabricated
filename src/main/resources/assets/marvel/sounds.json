@@ -1,0 +1,357 @@
+{
+  "empty": {
+    "sounds": []
+  },
+  "item.vibranium_shield.throw": {
+    "subtitle": "subtitles.item.vibranium_shield.throw",
+    "sounds": [
+      "marvel:item/vibranium_shield/throw1",
+      "marvel:item/vibranium_shield/throw2",
+      "marvel:item/vibranium_shield/throw3"
+    ]
+  },
+  "item.vibranium_shield.hit": {
+    "subtitle": "subtitles.item.vibranium_shield.hit",
+    "sounds": [
+      "marvel:item/vibranium_shield/hit1",
+      "marvel:item/vibranium_shield/hit2"
+    ]
+  },
+  "item.vibranium_shield.catch": {
+    "subtitle": "subtitles.item.vibranium_shield.catch",
+    "sounds": [
+      "marvel:item/vibranium_shield/catch1",
+      "marvel:item/vibranium_shield/catch2"
+    ]
+  },
+  "suit.kinetic_black_panther.suit_up": {
+    "subtitle": "subtitles.suit.kinetic_black_panther.suit_up",
+    "sounds": [
+      "marvel:suit/kinetic_black_panther/suit_up"
+    ]
+  },
+  "suit.kinetic_black_panther.suit_down": {
+    "subtitle": "subtitles.suit.kinetic_black_panther.suit_down",
+    "sounds": [
+      "marvel:suit/kinetic_black_panther/suit_down"
+    ]
+  },
+  "suit.kinetic_black_panther.helmet_up": {
+    "subtitle": "subtitles.suit.kinetic_black_panther.helmet_up",
+    "sounds": [
+      "marvel:suit/kinetic_black_panther/helmet"
+    ]
+  },
+  "suit.kinetic_black_panther.helmet_down": {
+    "subtitle": "subtitles.suit.kinetic_black_panther.helmet_down",
+    "sounds": [
+      "marvel:suit/kinetic_black_panther/helmet"
+    ]
+  },
+  "suit.wolverine.claws_out": {
+    "subtitle": "subtitles.suit.wolverine.claws_out",
+    "sounds": [
+      "marvel:suit/wolverine/claws_out"
+    ]
+  },
+  "suit.wolverine.claws_in": {
+    "subtitle": "subtitles.suit.wolverine.claws_in",
+    "sounds": [
+      "marvel:suit/wolverine/claws_in"
+    ]
+  },
+  "suit.cyclops.optic_blast": {
+    "subtitle": "subtitles.suit.cyclops.optic_blast",
+    "sounds": [
+      "marvel:suit/cyclops/optic_blast"
+    ]
+  },
+  "suit.cyclops.optic_blast_big": {
+    "subtitle": "subtitles.suit.cyclops.optic_blast_big",
+    "sounds": [
+      "marvel:suit/cyclops/optic_blast_big"
+    ]
+  },
+  "suit.cyclops.optic_blast_explosion": {
+    "subtitle": "subtitles.entity.generic.explode",
+    "sounds": [
+      {
+        "name": "minecraft:random/explode1",
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:random/explode2",
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:random/explode3",
+        "volume": 0.4
+      },
+      {
+        "name": "minecraft:random/explode4",
+        "volume": 0.4
+      }
+    ]
+  },
+  "suit.spider_man.web_shoot": {
+    "subtitle": "subtitles.suit.spider_man.web_shoot",
+    "sounds": [
+      "marvel:suit/spider_man/web_shoot"
+    ]
+  },
+  "suit.spider_man.spider_sense": {
+    "subtitle": "subtitles.suit.spider_man.spider_sense",
+    "sounds": [
+      "marvel:suit/spider_man/spider_sense"
+    ]
+  },
+  "suit.ant_man.helmet_open": {
+    "subtitle": "subtitles.suit.ant_man.helmet_open",
+    "sounds": [
+      "marvel:suit/ant_man/helmet_open"
+    ]
+  },
+  "suit.ant_man.helmet_close": {
+    "subtitle": "subtitles.suit.ant_man.helmet_close",
+    "sounds": [
+      "marvel:suit/ant_man/helmet_close"
+    ]
+  },
+  "suit.ant_man.shrink": {
+    "subtitle": "subtitles.suit.ant_man.shrink",
+    "sounds": [
+      "marvel:suit/ant_man/shrink"
+    ]
+  },
+  "suit.ant_man.grow": {
+    "subtitle": "subtitles.suit.ant_man.grow",
+    "sounds": [
+      "marvel:suit/ant_man/grow"
+    ]
+  },
+  "suit.wasp.sting": {
+    "subtitle": "subtitles.suit.wasp.sting",
+    "sounds": [
+      "marvel:suit/wasp/sting"
+    ]
+  },
+  "item.mjolnir.throw": {
+    "subtitle": "subtitles.item.mjolnir.throw",
+    "sounds": [
+      "marvel:item/mjolnir/throw"
+    ]
+  },
+  "item.mjolnir.hit": {
+    "subtitle": "subtitles.item.mjolnir.hit",
+    "sounds": [
+      "marvel:item/mjolnir/hit"
+    ]
+  },
+  "item.mjolnir.hit_shield": {
+    "subtitle": "subtitles.item.mjolnir.hit_shield",
+    "sounds": [
+      "marvel:item/mjolnir/hit_shield"
+    ]
+  },
+  "item.mjolnir.catch": {
+    "subtitle": "subtitles.item.mjolnir.catch",
+    "sounds": [
+      "marvel:item/mjolnir/catch"
+    ]
+  },
+  "item.stormbreaker.throw": {
+    "subtitle": "subtitles.item.stormbreaker.throw",
+    "sounds": [
+      "marvel:item/mjolnir/throw"
+    ]
+  },
+  "item.stormbreaker.hit": {
+    "subtitle": "subtitles.item.stormbreaker.hit",
+    "sounds": [
+      "marvel:item/mjolnir/hit"
+    ]
+  },
+  "item.stormbreaker.hit_shield": {
+    "subtitle": "subtitles.item.stormbreaker.hit_shield",
+    "sounds": [
+      "marvel:item/mjolnir/hit_shield"
+    ]
+  },
+  "item.stormbreaker.catch": {
+    "subtitle": "subtitles.item.stormbreaker.catch",
+    "sounds": [
+      "marvel:item/mjolnir/catch"
+    ]
+  },
+  "suit.iron_man.helmet_open": {
+    "subtitle": "subtitles.suit.iron_man.helmet_open",
+    "sounds": [
+      "marvel:suit/iron_man/helmet_open"
+    ]
+  },
+  "suit.iron_man.helmet_close": {
+    "subtitle": "subtitles.suit.iron_man.helmet_close",
+    "sounds": [
+      "marvel:suit/iron_man/helmet_close"
+    ]
+  },
+  "suit.iron_man.repulsor_charge": {
+    "subtitle": "subtitles.suit.iron_man.repulsor_charge",
+    "sounds": [
+      "marvel:suit/iron_man/repulsor_charge"
+    ]
+  },
+  "suit.iron_man.unibeam_charge": {
+    "subtitle": "subtitles.suit.iron_man.unibeam_charge",
+    "sounds": [
+      "marvel:suit/iron_man/unibeam_charge"
+    ]
+  },
+  "suit.iron_man.repulsor_shoot": {
+    "subtitle": "subtitles.suit.iron_man.repulsor_shoot",
+    "sounds": [
+      "marvel:suit/iron_man/shoot"
+    ]
+  },
+  "suit.iron_man.unibeam_shoot": {
+    "subtitle": "subtitles.suit.iron_man.unibeam_shoot",
+    "sounds": [
+      "marvel:suit/iron_man/shoot"
+    ]
+  },
+  "suit.iron_man.invisible": {
+    "sounds": [
+      "marvel:suit/iron_man/invisible"
+    ]
+  },
+  "suit.iron_man.visible": {
+    "sounds": [
+      "marvel:suit/iron_man/visible"
+    ]
+  },
+  "item.iron_man_mark_5_suitcase.use": {
+    "subtitle": "subtitles.item.iron_man_mark_5_suitcase.use",
+    "sounds": [
+      "marvel:item/iron_man_mark_5_suitcase/use"
+    ]
+  },
+  "suit.quicksilver.sonic_boom": {
+    "subtitle": "subtitles.suit.quicksilver.sonic_boom",
+    "sounds": [
+      "marvel:suit/quicksilver/sonic_boom"
+    ]
+  },
+  "suit.captain_marvel.photon_blast": {
+    "subtitle": "subtitles.suit.captain_marvel.photon_blast",
+    "sounds": [
+      "marvel:suit/captain_marvel/photon_blast"
+    ]
+  },
+  "suit.captain_marvel.photon_blast_loop": {
+    "sounds": [
+      "marvel:suit/captain_marvel/photon_blast_loop"
+    ]
+  },
+  "item.tesseract_crossbow.hit": {
+    "sounds": [
+      "minecraft:random/bowhit1",
+      "minecraft:random/bowhit2",
+      "minecraft:random/bowhit3",
+      "minecraft:random/bowhit4"
+    ],
+    "subtitle": "subtitles.item.tesseract_crossbow.hit"
+  },
+  "item.tesseract_crossbow.loading_end": {
+    "sounds": [
+      "minecraft:item/crossbow/loading_end"
+    ],
+    "subtitle": "subtitles.item.tesseract_crossbow.load"
+  },
+  "item.tesseract_crossbow.loading_middle": {
+    "sounds": [
+      {
+        "name": "marvel:item/tesseract_crossbow/loading_middle1",
+        "volume": 0.65
+      },
+      {
+        "name": "marvel:item/tesseract_crossbow/loading_middle2",
+        "volume": 0.65
+      },
+      {
+        "name": "marvel:item/tesseract_crossbow/loading_middle3",
+        "volume": 0.65
+      },
+      {
+        "name": "marvel:item/tesseract_crossbow/loading_middle4",
+        "volume": 0.65
+      }
+    ]
+  },
+  "item.tesseract_crossbow.loading_start": {
+    "sounds": [
+      {
+        "name": "minecraft:item/crossbow/loading_start",
+        "volume": 0.3
+      }
+    ],
+    "subtitle": "subtitles.item.tesseract_crossbow.charge"
+  },
+  "item.tesseract_crossbow.shoot": {
+    "sounds": [
+      {
+        "name": "marvel:item/tesseract_crossbow/shoot1",
+        "volume": 0.8
+      },
+      {
+        "name": "marvel:item/tesseract_crossbow/shoot1",
+        "volume": 0.9
+      },
+      {
+        "name": "marvel:item/tesseract_crossbow/shoot2",
+        "volume": 0.8
+      },
+      {
+        "name": "marvel:item/tesseract_crossbow/shoot2",
+        "volume": 0.9
+      },
+      {
+        "name": "marvel:item/tesseract_crossbow/shoot3",
+        "volume": 0.8
+      },
+      {
+        "name": "marvel:item/tesseract_crossbow/shoot3",
+        "volume": 0.9
+      }
+    ],
+    "subtitle": "subtitles.item.tesseract_crossbow.shoot"
+  },
+  "entity.winter_soldier.target": {
+    "subtitle": "subtitles.entity.winter_soldier.target",
+    "sounds": [
+      "marvel:entity/winter_soldier/target"
+    ]
+  },
+  "item.tesseract.teleport": {
+    "subtitle": "subtitles.item.tesseract.teleport",
+    "sounds": [
+      "marvel:item/space_stone/teleport"
+    ]
+  },
+  "item.space_stone.teleport": {
+    "subtitle": "subtitles.item.space_stone.teleport",
+    "sounds": [
+      "marvel:item/space_stone/teleport"
+    ]
+  },
+  "entity.red_skull.shoot": {
+    "subtitle": "subtitles.entity.red_skull.shoot",
+    "sounds": [
+      "marvel:entity/red_skull/shoot"
+    ]
+  },
+  "entity.red_skull.hit": {
+    "sounds": [
+      "marvel:entity/red_skull/hit"
+    ]
+  }
+}

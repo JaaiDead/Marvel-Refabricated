@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "marvel:block/light_gray_hydra_bricks"
+  }
+}

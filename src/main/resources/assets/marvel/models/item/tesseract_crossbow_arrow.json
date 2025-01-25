@@ -1,0 +1,6 @@
+{
+    "parent": "marvel:item/tesseract_crossbow",
+    "textures": {
+        "layer0": "marvel:item/tesseract_crossbow_arrow"
+    }
+}

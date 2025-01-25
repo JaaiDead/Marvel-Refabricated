@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "marvel",
+  "version": "${version}",
+  "name": "Marvel-Refabricated",
+  "description": "",
+  "authors": ["JaaiDead"],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/marvel/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.arcticquests.dev.client.MarvelSuperHeroesClient"
+    ],
+    "main": [
+      "org.arcticquests.dev.MarvelSuperHeroes"
+    ]
+  },
+  "mixins": [
+    "marvel.mixins.json",
+    {
+      "config": "marvel.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

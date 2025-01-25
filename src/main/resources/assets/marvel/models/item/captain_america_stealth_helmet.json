@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "marvel:item/captain_america_stealth_helmet"
+  }
+}

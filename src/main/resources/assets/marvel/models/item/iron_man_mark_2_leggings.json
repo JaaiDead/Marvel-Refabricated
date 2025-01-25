@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "marvel:item/iron_man_mark_2_leggings"
+  }
+}

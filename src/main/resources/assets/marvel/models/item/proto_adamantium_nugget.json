@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "marvel:item/proto_adamantium_nugget"
+  }
+}

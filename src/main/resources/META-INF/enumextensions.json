@@ -1,0 +1,58 @@
+{
+  "entries": [
+    {
+      "enum": "net/minecraft/client/gui/Gui$HeartType",
+      "name": "MARVEL_ADAMANTIUM",
+      "constructor": "(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;)V",
+      "parameters": {
+        "class": "net/tintankgames/marvel/client/MarvelClientEnumExtensions",
+        "field": "ADAMANTIUM_HEART_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/client/gui/Gui$HeartType",
+      "name": "MARVEL_DEADPOOL",
+      "constructor": "(Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;Lnet/minecraft/resources/ResourceLocation;)V",
+      "parameters": {
+        "class": "net/tintankgames/marvel/client/MarvelClientEnumExtensions",
+        "field": "DEADPOOL_HEART_TYPE"
+      }
+    },
+    {
+      "enum": "net/minecraft/client/model/HumanoidModel$ArmPose",
+      "name": "MARVEL_VIBRANIUM_SHIELD",
+      "constructor": "(ZLnet/neoforged/neoforge/client/IArmPoseTransformer;)V",
+      "parameters": {
+        "class": "net/tintankgames/marvel/client/MarvelClientEnumExtensions",
+        "field": "VIBRANIUM_SHIELD_POSE"
+      }
+    },
+    {
+      "enum": "net/minecraft/client/model/HumanoidModel$ArmPose",
+      "name": "MARVEL_CLAWS_HOLD",
+      "constructor": "(ZLnet/neoforged/neoforge/client/IArmPoseTransformer;)V",
+      "parameters": {
+        "class": "net/tintankgames/marvel/client/MarvelClientEnumExtensions",
+        "field": "CLAWS_HOLD_POSE"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/ItemDisplayContext",
+      "name": "MARVEL_FLYING_LEFT_HAND",
+      "constructor": "(ILjava/lang/String;Ljava/lang/String;)V",
+      "parameters": {
+        "class": "net/tintankgames/marvel/MarvelEnumExtensions",
+        "field": "FLYING_LEFT_HAND_CONTEXT"
+      }
+    },
+    {
+      "enum": "net/minecraft/world/item/ItemDisplayContext",
+      "name": "MARVEL_FLYING_RIGHT_HAND",
+      "constructor": "(ILjava/lang/String;Ljava/lang/String;)V",
+      "parameters": {
+        "class": "net/tintankgames/marvel/MarvelEnumExtensions",
+        "field": "FLYING_RIGHT_HAND_CONTEXT"
+      }
+    }
+  ]
+}

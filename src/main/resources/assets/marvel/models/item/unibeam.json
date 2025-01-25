@@ -1,0 +1,14 @@
+{
+  "parent": "marvel:item/suit_power",
+  "textures": {
+    "layer0": "marvel:item/unibeam"
+  },
+  "overrides": [
+    {
+      "model": "marvel:item/unibeam_war_machine",
+      "predicate": {
+        "marvel:war_machine": 1
+      }
+    }
+  ]
+}

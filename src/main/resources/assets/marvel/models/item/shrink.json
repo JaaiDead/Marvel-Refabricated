@@ -1,0 +1,6 @@
+{
+  "parent": "marvel:item/suit_power",
+  "textures": {
+    "layer0": "marvel:item/shrink"
+  }
+}

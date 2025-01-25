@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "marvel:block/light_gray_hydra_bricks",
+    "side": "marvel:block/light_gray_hydra_bricks",
+    "top": "marvel:block/light_gray_hydra_bricks"
+  }
+}

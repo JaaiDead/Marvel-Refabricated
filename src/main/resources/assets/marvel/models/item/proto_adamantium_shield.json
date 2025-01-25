@@ -1,0 +1,6 @@
+{
+  "parent": "marvel:item/template_shield",
+  "textures": {
+    "particle": "marvel:block/adamantium_block"
+  }
+}

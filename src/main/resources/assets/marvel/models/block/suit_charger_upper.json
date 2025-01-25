@@ -1,0 +1,73 @@
+{
+  "texture_size": [64, 64],
+  "textures": {
+    "particle": "#charger",
+    "charger": "marvel:block/suit_charger_off"
+  },
+  "elements": [
+    {
+      "from": [4, 0, 7],
+      "to": [12, 1, 9],
+      "rotation": {"angle": 0, "axis": "y", "origin": [8, -18, 8]},
+      "faces": {
+        "north": {"uv": [0, 8, 2, 8.25], "texture": "#charger"},
+        "east": {"uv": [4.5, 8, 5, 8.25], "texture": "#charger"},
+        "south": {"uv": [2.5, 8, 4.5, 8.25], "texture": "#charger"},
+        "west": {"uv": [2, 8, 2.5, 8.25], "texture": "#charger"},
+        "up": {"uv": [2, 8.75, 4, 9.25], "texture": "#charger"}
+      }
+    },
+    {
+      "from": [9, 1, 7],
+      "to": [11, 8, 9],
+      "rotation": {"angle": 0, "axis": "y", "origin": [8, -10, 8]},
+      "faces": {
+        "north": {"uv": [3.5, 3.5, 4, 5.25], "texture": "#charger"},
+        "east": {"uv": [4, 3.5, 4.5, 5.25], "texture": "#charger"},
+        "south": {"uv": [4.5, 3.5, 5, 5.25], "texture": "#charger"},
+        "west": {"uv": [5, 3.5, 5.5, 5.25], "texture": "#charger"},
+        "up": {"uv": [3.5, 5.25, 4, 5.75], "texture": "#charger"},
+        "down": {"uv": [4, 5.25, 4.5, 5.75], "texture": "#charger"}
+      }
+    },
+    {
+      "from": [5, 1, 7],
+      "to": [7, 8, 9],
+      "rotation": {"angle": 0, "axis": "y", "origin": [8, -10, 8]},
+      "faces": {
+        "north": {"uv": [3.5, 3.5, 4, 5.25], "texture": "#charger"},
+        "east": {"uv": [4, 3.5, 4.5, 5.25], "texture": "#charger"},
+        "south": {"uv": [4.5, 3.5, 5, 5.25], "texture": "#charger"},
+        "west": {"uv": [5, 3.5, 5.5, 5.25], "texture": "#charger"},
+        "up": {"uv": [3.5, 5.25, 4, 5.75], "texture": "#charger"},
+        "down": {"uv": [4, 5.25, 4.5, 5.75], "texture": "#charger"}
+      }
+    },
+    {
+      "from": [2, 8, 6.5],
+      "to": [14, 11, 9.5],
+      "rotation": {"angle": 0, "axis": "y", "origin": [8, -8, 8]},
+      "faces": {
+        "north": {"uv": [0, 9.5, 3, 10.25], "texture": "#charger"},
+        "east": {"uv": [6.75, 9.5, 7.5, 10.25], "texture": "#charger"},
+        "south": {"uv": [3.75, 9.5, 6.75, 10.25], "texture": "#charger"},
+        "west": {"uv": [3, 9.5, 3.75, 10.25], "texture": "#charger"},
+        "up": {"uv": [0, 10.25, 3, 11], "texture": "#charger"},
+        "down": {"uv": [3, 10.25, 6, 11], "texture": "#charger"}
+      }
+    },
+    {
+      "from": [7, 11, 7],
+      "to": [9, 18, 9],
+      "rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+      "faces": {
+        "north": {"uv": [3.5, 3.5, 4, 5.25], "texture": "#charger"},
+        "east": {"uv": [4, 3.5, 4.5, 5.25], "texture": "#charger"},
+        "south": {"uv": [4.5, 3.5, 5, 5.25], "texture": "#charger"},
+        "west": {"uv": [5, 3.5, 5.5, 5.25], "texture": "#charger"},
+        "up": {"uv": [3.5, 5.25, 4, 5.75], "texture": "#charger"},
+        "down": {"uv": [4, 5.25, 4.5, 5.75], "texture": "#charger"}
+      }
+    }
+  ]
+}

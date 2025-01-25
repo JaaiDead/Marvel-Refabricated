@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "marvel:block/yellow_hydra_brick_slab"
+    },
+    "type=double": {
+      "model": "marvel:block/yellow_hydra_bricks"
+    },
+    "type=top": {
+      "model": "marvel:block/yellow_hydra_brick_slab_top"
+    }
+  }
+}

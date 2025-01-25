@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "marvel:block/light_gray_hydra_bricks"
+  }
+}

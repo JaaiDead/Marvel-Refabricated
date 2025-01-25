@@ -1,0 +1,46 @@
+{
+  "parent": "minecraft:builtin/entity",
+  "textures": {
+    "particle": "marvel:entity/mjolnir"
+  },
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [8, 12.75, 10]
+    },
+    "thirdperson_lefthand": {
+      "translation": [-8, 12.75, 10]
+    },
+    "firstperson_righthand": {
+      "translation": [10.25, 11.75, 6]
+    },
+    "firstperson_lefthand": {
+      "translation": [-5.75, 11.75, 6]
+    },
+    "ground": {
+      "rotation": [180, 0, 0],
+      "translation": [8, -9, -8]
+    },
+    "gui": {
+      "rotation": [168.58, 53.42, -139.54],
+      "translation": [6.75, 13, 0]
+    },
+    "head": {
+      "rotation": [180, 0, 0],
+      "translation": [9.25, 0.25, -9.25],
+      "scale": [1.17, 1.17, 1.17]
+    },
+    "fixed": {
+      "rotation": [0, 90.5, 0],
+      "translation": [10.25, 15.75, -12.5],
+      "scale": [1.28, 1.28, 1.28]
+    },
+    "marvel:flying_righthand": {
+      "rotation": [-60, 0, 0],
+      "translation": [8, 13.5, -9.25]
+    },
+    "marvel:flying_lefthand": {
+      "rotation": [-60, 0, 0],
+      "translation": [-8, 13.5, -9.25]
+    }
+  }
+}

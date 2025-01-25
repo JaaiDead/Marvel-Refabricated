@@ -1,0 +1,113 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "mjolnir": "marvel:entity/mjolnir",
+    "particle": "#mjolnir"
+  },
+  "elements": [
+    {
+      "from": [7.5, 5.25, 7.5],
+      "to": [8.5, 13.25, 8.5],
+      "rotation": {"angle": 0, "axis": "x", "origin": [8, 5.75, 8]},
+      "faces": {
+        "north": {"uv": [1.5, 9.5, 2, 13.5], "rotation": 180, "texture": "#mjolnir"},
+        "east": {"uv": [0, 9.5, 0.5, 13.5], "rotation": 180, "texture": "#mjolnir"},
+        "south": {"uv": [0.5, 9.5, 1, 13.5], "rotation": 180, "texture": "#mjolnir"},
+        "west": {"uv": [1, 9.5, 1.5, 13.5], "rotation": 180, "texture": "#mjolnir"},
+        "up": {"uv": [1.5, 9, 1, 9.5], "texture": "#mjolnir"},
+        "down": {"uv": [1, 9.5, 0.5, 9], "texture": "#mjolnir"}
+      }
+    },
+    {
+      "from": [7.35, 12.6, 7.35],
+      "to": [8.65, 13.9, 8.65],
+      "rotation": {"angle": 0, "axis": "x", "origin": [8, 5.75, 8]},
+      "faces": {
+        "north": {"uv": [1.5, 14, 2, 14.5], "rotation": 180, "texture": "#mjolnir"},
+        "east": {"uv": [0, 14, 0.5, 14.5], "rotation": 180, "texture": "#mjolnir"},
+        "south": {"uv": [0.5, 14, 1, 14.5], "rotation": 180, "texture": "#mjolnir"},
+        "west": {"uv": [1, 14, 1.5, 14.5], "rotation": 180, "texture": "#mjolnir"},
+        "up": {"uv": [1.5, 13.5, 1, 14], "texture": "#mjolnir"},
+        "down": {"uv": [1, 14, 0.5, 13.5], "texture": "#mjolnir"}
+      }
+    },
+    {
+      "from": [6.5, 0, 6.5],
+      "to": [9.5, 1, 9.5],
+      "rotation": {"angle": 0, "axis": "x", "origin": [8, 5.75, 8]},
+      "faces": {
+        "north": {"uv": [9.5, 7.5, 11, 8], "rotation": 180, "texture": "#mjolnir"},
+        "east": {"uv": [5, 7.5, 6.5, 8], "rotation": 180, "texture": "#mjolnir"},
+        "south": {"uv": [6.5, 7.5, 8, 8], "rotation": 180, "texture": "#mjolnir"},
+        "west": {"uv": [8, 7.5, 9.5, 8], "rotation": 180, "texture": "#mjolnir"},
+        "up": {"uv": [9.5, 6, 8, 7.5], "texture": "#mjolnir"},
+        "down": {"uv": [8, 7.5, 6.5, 6], "texture": "#mjolnir"}
+      }
+    },
+    {
+      "from": [5.5, 0.25, 4.5],
+      "to": [10.5, 5.25, 11.5],
+      "rotation": {"angle": 0, "axis": "x", "origin": [8, 5.75, 8]},
+      "faces": {
+        "north": {"uv": [9.5, 3.5, 12, 6], "rotation": 180, "texture": "#mjolnir"},
+        "east": {"uv": [0, 3.5, 3.5, 6], "rotation": 180, "texture": "#mjolnir"},
+        "south": {"uv": [3.5, 3.5, 6, 6], "rotation": 180, "texture": "#mjolnir"},
+        "west": {"uv": [6, 3.5, 9.5, 6], "rotation": 180, "texture": "#mjolnir"},
+        "up": {"uv": [8.5, 0, 6, 3.5], "texture": "#mjolnir"},
+        "down": {"uv": [6, 3.5, 3.5, 0], "texture": "#mjolnir"}
+      }
+    },
+    {
+      "from": [6, 0.75, 11],
+      "to": [10, 4.75, 12],
+      "rotation": {"angle": 0, "axis": "x", "origin": [8, 5.75, 8]},
+      "faces": {
+        "north": {"uv": [3, 6.5, 5, 8.5], "rotation": 180, "texture": "#mjolnir"},
+        "east": {"uv": [0, 6.5, 0.5, 8.5], "rotation": 180, "texture": "#mjolnir"},
+        "south": {"uv": [0.5, 6.5, 2.5, 8.5], "rotation": 180, "texture": "#mjolnir"},
+        "west": {"uv": [2.5, 6.5, 3, 8.5], "rotation": 180, "texture": "#mjolnir"},
+        "up": {"uv": [4.5, 6, 2.5, 6.5], "texture": "#mjolnir"},
+        "down": {"uv": [2.5, 6.5, 0.5, 6], "texture": "#mjolnir"}
+      }
+    },
+    {
+      "from": [6, 0.75, 4],
+      "to": [10, 4.75, 5],
+      "rotation": {"angle": 0, "axis": "x", "origin": [8, 5.75, 8]},
+      "faces": {
+        "north": {"uv": [3, 6.5, 5, 8.5], "rotation": 180, "texture": "#mjolnir"},
+        "east": {"uv": [0, 6.5, 0.5, 8.5], "rotation": 180, "texture": "#mjolnir"},
+        "south": {"uv": [0.5, 6.5, 2.5, 8.5], "rotation": 180, "texture": "#mjolnir"},
+        "west": {"uv": [2.5, 6.5, 3, 8.5], "rotation": 180, "texture": "#mjolnir"},
+        "up": {"uv": [4.5, 6, 2.5, 6.5], "texture": "#mjolnir"},
+        "down": {"uv": [2.5, 6.5, 0.5, 6], "texture": "#mjolnir"}
+      }
+    },
+    {
+      "from": [6.5, 1.25, 3.75],
+      "to": [9.5, 4.25, 4.75],
+      "rotation": {"angle": 0, "axis": "x", "origin": [8, 5.75, 8]},
+      "faces": {
+        "north": {"uv": [11, 0.5, 12.5, 2], "rotation": 180, "texture": "#mjolnir"},
+        "east": {"uv": [8.5, 0.5, 9, 2], "rotation": 180, "texture": "#mjolnir"},
+        "south": {"uv": [9, 0.5, 10.5, 2], "rotation": 180, "texture": "#mjolnir"},
+        "west": {"uv": [10.5, 0.5, 11, 2], "rotation": 180, "texture": "#mjolnir"},
+        "up": {"uv": [12, 0, 10.5, 0.5], "texture": "#mjolnir"},
+        "down": {"uv": [10.5, 0.5, 9, 0], "texture": "#mjolnir"}
+      }
+    },
+    {
+      "from": [6.5, 1.25, 11.25],
+      "to": [9.5, 4.25, 12.25],
+      "rotation": {"angle": 0, "axis": "x", "origin": [8, 5.75, 8]},
+      "faces": {
+        "north": {"uv": [11, 0.5, 12.5, 2], "rotation": 180, "texture": "#mjolnir"},
+        "east": {"uv": [8.5, 0.5, 9, 2], "rotation": 180, "texture": "#mjolnir"},
+        "south": {"uv": [9, 0.5, 10.5, 2], "rotation": 180, "texture": "#mjolnir"},
+        "west": {"uv": [10.5, 0.5, 11, 2], "rotation": 180, "texture": "#mjolnir"},
+        "up": {"uv": [12, 0, 10.5, 0.5], "texture": "#mjolnir"},
+        "down": {"uv": [10.5, 0.5, 9, 0], "texture": "#mjolnir"}
+      }
+    }
+  ]
+}
