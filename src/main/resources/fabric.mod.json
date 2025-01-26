@@ -15,7 +15,9 @@
     ],
     "main": [
       "org.arcticquests.dev.MarvelSuperHeroes"
-    ]
+    ],
+    "fabric-datagen": [
+      "org.arcticquests.dev.client.datagen.MarvelDataGenrator"]
   },
   "mixins": [
     "marvel.mixins.json",
