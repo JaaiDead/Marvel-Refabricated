@@ -40,7 +40,7 @@ public class MarvelDamageTypesProvider extends FabricDynamicRegistryProvider {
         damageTypeRegisterable.register(TESSERACT_ARROW, new DamageType("arrow", 0.1F));
         damageTypeRegisterable.register(TESSERACT_FIREWORKS, new DamageType("fireworks", 0.1F));
     }
-
+    //TODO: Fix The Text Stuff
     @Override
     public String getName() {
         return "Marvel Damage Types Provider";
