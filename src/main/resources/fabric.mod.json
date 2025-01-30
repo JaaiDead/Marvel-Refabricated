@@ -7,7 +7,7 @@
   "authors": ["JaaiDead"],
   "contact": {},
   "license": "GPL-3.0",
-  "icon": "assets/marvel/icon.png",
+  "icon": "assets/marvel/logo.png",
   "environment": "*",
   "entrypoints": {
     "client": [
@@ -17,7 +17,8 @@
       "org.arcticquests.dev.MarvelSuperHeroes"
     ],
     "fabric-datagen": [
-      "org.arcticquests.dev.client.datagen.MarvelDataGenrator"]
+      "org.arcticquests.dev.client.datagen.MarvelDataGenrator"
+    ]
   },
   "mixins": [
     "marvel.mixins.json",
