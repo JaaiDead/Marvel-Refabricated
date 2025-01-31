@@ -717,7 +717,7 @@
   "commands.infinity.reset.success.singular": "The %s may be found again",
   "commands.infinity.reset.success.all": "All stones may be found again",
 
-  "death.attack.flamethrower": "%s was roasted by %s",
+  "death.attack.flamethrower": "%1$s was roasted by %2$s",
   "death.attack.kinetic_blast": "%1$s was hit by a kinetic blast from %2$s",
   "death.attack.kinetic_blast.item": "%1$s was hit by a kinetic blast from %2$s using %3$s",
   "death.attack.kinetic_blast.player": "%1$s was hit by a kinetic blast from %2$s",
