@@ -1,17 +1,15 @@
 package org.arcticquests.dev.world.entity;
 
-
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
-import net.minecraft.enchantment.provider.EnchantmentProviders;
-import net.minecraft.entity.EntityData;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.SpawnReason;
+import net.minecraft.enchantment.Enchantments;
+import net.minecraft.entity.*;
 import net.minecraft.entity.ai.goal.*;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.boss.BossBar;
 import net.minecraft.entity.boss.ServerBossBar;
+import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.data.DataTracker;
 import net.minecraft.entity.data.TrackedData;
 import net.minecraft.entity.data.TrackedDataHandlerRegistry;
@@ -22,13 +20,18 @@ import net.minecraft.entity.passive.MerchantEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.registry.tag.ItemTags;
+import net.minecraft.nbt.NbtCompound;
+import net.minecraft.registry.RegistryKeys;
+import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.server.network.ServerPlayerEntity;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.LocalDifficulty;
 import net.minecraft.world.ServerWorldAccess;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
+
+import java.util.Optional;
 
 
 public  class BaronZemo extends HostileEntity {
@@ -40,7 +43,7 @@ public  class BaronZemo extends HostileEntity {
     protected BaronZemo(EntityType<? extends HostileEntity> entityType, World world) {
         super(entityType, world);
         this.experiencePoints = 250;
-        bossBar.setVisible(false);
+        this.bossBar.setVisible(false);
         setPersistent();
     }
 
@@ -80,14 +83,17 @@ public  class BaronZemo extends HostileEntity {
     }
 
 
+    public void setActivated(boolean activated) {
+        dataTracker.set(ACTIVATED, activated);
+    }
+
+
     @Override
     public boolean canImmediatelyDespawn(double distanceSquared) {
         return false;
     }
 
-    public void setActivated(boolean activated) {
-        dataTracker.set(ACTIVATED, activated);
-    }
+
    /* Attributes*/
     public static DefaultAttributeContainer.Builder createAttributes(){
         return MobEntity.createMobAttributes()
@@ -119,8 +125,70 @@ public  class BaronZemo extends HostileEntity {
         this.equipStack(EquipmentSlot.MAINHAND, new ItemStack(Items.DIAMOND_SWORD));
         this.updateDropChances(EquipmentSlot.MAINHAND);
     }
-    //TODO: Continue From Enchanting the equipment for todays thats all lol - Jaai
-        /*BOSS BAR */
+
+    //TODO: Warning HIGHLY EXPERIMENTAL CODE
+    //TEST CODE NOT SURE
+    @Override
+    protected void enchantMainHandItem(ServerWorldAccess world, Random random, LocalDifficulty localDifficulty) {
+        super.enchantMainHandItem(world, random, localDifficulty);
+
+        world.getRegistryManager().get(RegistryKeys.ENCHANTMENT).getEntry(Enchantments.SHARPNESS);
+
+        RegistryEntry<Enchantment> sharpnessEnchantment = world.getRegistryManager()
+                .get(RegistryKeys.ENCHANTMENT)
+                .getEntry(Enchantments.SHARPNESS)
+                .orElse(null);
+
+        ItemStack itemStack = this.getMainHandStack();
+        if (sharpnessEnchantment != null) {
+            EnchantmentHelper.apply(itemStack, builder -> builder.add(sharpnessEnchantment, 5));
+
+        }
+    }
+
+    /*Nbt Data */
+    @Override
+    public void readCustomDataFromNbt(NbtCompound nbt) {
+        super.readCustomDataFromNbt(nbt);
+        if (hasCustomName()) {
+            this.bossBar.setName(getDisplayName());
+        }
+        setActivated(nbt.getBoolean("activated"));
+    }
+
+    @Override
+    public void writeCustomDataToNbt(NbtCompound nbt) {
+        super.writeCustomDataToNbt(nbt);
+        nbt.putBoolean("activated", isActivated());
+    }
+
+    @Override
+    public void setCustomName(@Nullable Text name) {
+        super.setCustomName(name);
+        this.bossBar.setName(getDisplayName());
+    }
+
+    @Override
+    public void onDeath(DamageSource damageSource) {
+        super.onDeath(damageSource);
+        this.bossBar.setPercent(0);
+    }
+
+    @Override
+    public void setTarget(@Nullable LivingEntity livingEntity){
+        super.setTarget(livingEntity);
+        if(livingEntity instanceof ServerPlayerEntity) {
+            setActivated(true);
+        }
+    }
+
+    @Override
+    public void remove(RemovalReason reason) {
+        super.remove(reason);
+        this.bossBar.clearPlayers();
+    }
+
+    /*BOSS BAR */
     @Override
     public void onStartedTrackingBy(ServerPlayerEntity player){
         super.onStartedTrackingBy(player);
