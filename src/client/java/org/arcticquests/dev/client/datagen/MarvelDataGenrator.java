@@ -13,6 +13,11 @@ public class MarvelDataGenrator implements DataGeneratorEntrypoint {
         //pack.addProvider(MarvelAdvancementProvider::new);
         pack.addProvider(MarvelDamageTypesProvider::new);
         pack.addProvider(MarvelDamageTypesTagProvider::new);
+
+        pack.addProvider(MarvelBlockTagProvider::new);
+
+
+
     }
     @Override
     public void buildRegistry(RegistryBuilder builder) {

@@ -353,10 +353,10 @@
   "filled_map.hydra": "Hydra Explorer Map",
   "filled_map.hydra_headquarters": "Hydra Headquarters Map",
 
-  "itemGroup.marvel.blocks_and_items": "Marvel Blocks & Items",
-  "itemGroup.marvel.weapons": "Marvel Weapons",
-  "itemGroup.marvel.suits": "Marvel Suits",
-  "itemGroup.marvel.iron_man_suits": "Iron Man Suits",
+  "itemgroup.marvel.blocks_and_items": "Marvel Blocks & Items",
+  "itemgroup.marvel.weapons": "Marvel Weapons",
+  "itemgroup.marvel.suits": "Marvel Suits",
+  "itemgroup.marvel.iron_man_suits": "Iron Man Suits",
 
   "entity.marvel.vibranium_shield": "Vibranium Shield",
   "entity.marvel.proto_adamantium_shield": "Proto-Adamantium Shield",
