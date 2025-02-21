@@ -5,6 +5,7 @@ import net.minecraft.util.Identifier;
 import org.arcticquests.dev.world.effect.MarvelStatusEffects;
 import org.arcticquests.dev.world.item.MarvelItems;
 import org.arcticquests.dev.world.item.groups.MarvelItemGroups;
+import org.arcticquests.dev.world.item.tags.MarvelTags;
 import org.arcticquests.dev.world.level.block.MarvelBlocks;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

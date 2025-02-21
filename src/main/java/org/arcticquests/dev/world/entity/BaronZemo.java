@@ -72,7 +72,7 @@ public  class BaronZemo extends HostileEntity {
 
 
         /*Target Selector*/
-        this.targetSelector.add(1,new RevengeGoal(this, HydraAgent.class,BaronZemo.class));
+        this.targetSelector.add(1,new RevengeGoal(this,HydraAgent.class,BaronZemo.class));
         this.targetSelector.add(2,new ActiveTargetGoal<>(this, PlayerEntity.class,true));
         this.targetSelector.add(3,new ActiveTargetGoal<>(this, MerchantEntity.class,false));
         this.targetSelector.add(3,new ActiveTargetGoal<>(this, IronGolemEntity.class,true));

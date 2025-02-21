@@ -9,6 +9,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import org.arcticquests.dev.MarvelSuperHeroes;
 import org.arcticquests.dev.world.item.MarvelItems;
+import org.arcticquests.dev.world.level.block.MarvelBlocks;
 
 public class MarvelItemGroups {
 

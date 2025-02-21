@@ -16,7 +16,6 @@ public class MarvelTags {
         public static final TagKey<Block> PALLADIUM_ORES = make("palladium_ores");
         public static final TagKey<Block> HYDRA_AGENT_SPAWNABLE_ON = make("hydra_agent_spawnable_on");
 
-
         private static TagKey<Block> make(String name){
             return TagKey.of(RegistryKeys.BLOCK,Identifier.of(MarvelSuperHeroes.MOD_ID,name));
         }
