@@ -255,6 +255,7 @@ public class MarvelItemGroups {
 
                     }))
                     .build());
+
      public static final ItemGroup IRON_MAN_SUITS = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(MarvelSuperHeroes.MOD_ID,"iron_man_suits"),
             FabricItemGroup.builder().icon(()-> new ItemStack(MarvelItems.VIBRANIUM))
