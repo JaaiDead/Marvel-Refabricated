@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import org.arcticquests.dev.sounds.MarvelSoundEvents;
 import org.arcticquests.dev.world.effect.MarvelStatusEffects;
+import org.arcticquests.dev.world.inventory.MarvelMenuTypes;
 import org.arcticquests.dev.world.item.MarvelItems;
 import org.arcticquests.dev.world.item.groups.MarvelItemGroups;
 import org.arcticquests.dev.world.item.tags.MarvelTags;
@@ -20,6 +21,7 @@ public class MarvelSuperHeroes implements ModInitializer {
     public void onInitialize() {
         MarvelItemGroups.registerItemGroups();
 
+        MarvelMenuTypes.registerMarvelScreen();
         MarvelSoundEvents.registerSounds();
         MarvelStatusEffects.registerEffects();
         MarvelItems.registerItems();
