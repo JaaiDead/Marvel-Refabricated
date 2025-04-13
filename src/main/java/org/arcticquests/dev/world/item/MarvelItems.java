@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import org.arcticquests.dev.MarvelSuperHeroes;
 import org.arcticquests.dev.world.entity.MarvelEntityTypes;
+import org.arcticquests.dev.world.level.block.MarvelBlocks;
 
 public class MarvelItems {
 
